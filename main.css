@@ -142,4 +142,7 @@ hr {
     .hero-unit {
         height: 490px;
     }
+    .card {
+        width: 21rem !important
+    }
 }
