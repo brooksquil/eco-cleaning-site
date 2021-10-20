@@ -5,6 +5,11 @@ body {
     background-attachment: fixed;
 }
 
+.bio-pic {
+    width: 20%;
+    border-radius: 10px;
+}
+
 .jumbotron {
     font-family: 'Cormorant Garamond', serif;
     margin-top: 35px;
