@@ -163,7 +163,8 @@ hr {
 
 @media (max-width: 600px) {
     .hero-unit {
-        height: 490px;
+        height: 620px;
+        margin-bottom: 20px;
     }
     .card {
         width: 21rem !important
