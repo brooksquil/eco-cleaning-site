@@ -5,9 +5,27 @@ body {
     background-attachment: fixed;
 }
 
+footer {
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    width: 10%;
+}
+
 .bio-pic {
     width: 20%;
     border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 1.2em;
+}
+
+.testimony-header {
+    margin-bottom: -60px;
 }
 
 .jumbotron {
@@ -20,7 +38,7 @@ body {
     font-family: 'Cormorant Garamond', serif;
     background-color: ivory;
     width: 80%;
-    height: 350px;
+    height: 450px;
     margin: 0 auto;
     padding: 50px;
     border-radius: 10px;
