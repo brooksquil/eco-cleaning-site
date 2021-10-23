@@ -1,3 +1,21 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("bwittenberg.developer@gmail.com", "Email via site",
+
+
+$_POST["Thanks so much for contacting us, We will get back to you shortly."]. "From: bwittenberg.developer@gmail.com");
+
+
+}
+
+
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -65,15 +83,14 @@
         <div class="row">
             <div class="text-center">
                 <div class="hero-unit hero-unit-fluid">
-                    <form action=”mailto:sharonrose1591@gmail.com” method=”POST” enctype="text/plain" name=”EmailForm”>
-
+                    <form method="post" action="contact.php" onsubmit="location.href='thanks.html';">
 
                         <label for="email">Email address:</label>
                         <input type="email" class="form-control" id="email">
                         <label for="name">Name:</label>
                         <input type="name" class="form-control" id="name">
-                        <label for="exampleFormControlTextarea1">Message:</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="4"></textarea>
 
                         <button type="submit" class="btn btn-outline-success" value="submit">Send</button>
 
