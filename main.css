@@ -178,4 +178,8 @@ hr {
         margin-top: 6px;
         margin-bottom: 19px;
     }
+    .bio-pic {
+        width: 40%;
+        border-radius: 10px;
+    }
 }
