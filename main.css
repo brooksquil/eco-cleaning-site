@@ -3,7 +3,7 @@ body {
     font-family: 'Cormorant Garamond', serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
 }
 
 video {
@@ -168,10 +168,18 @@ hr {
 
 @media (max-width: 600px) {
     .hero-unit {
-        height: 712px;
+        height: 1256px;
         margin-bottom: 20px;
     }
     .card {
         width: 21rem !important
+    }
+    .outer-card {
+        margin-top: 6px;
+        margin-bottom: 19px;
+    }
+    .bio-pic {
+        width: 40%;
+        border-radius: 10px;
     }
 }

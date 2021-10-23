@@ -33,7 +33,7 @@ $_POST["Thanks so much for contacting us, We will get back to you shortly."]. "F
         gtag('config', 'G-V68K2ST16N');
     </script>
     <meta name="description" content="Cleaning Service">
-    <meta name="keywords" content="Cleaning, House Cleaning, Eco-Friendly, eco, sharon, home cleaning, home, cleaning service, middle TN, TN, Murphreesboro, Nashville">
+    <meta name="keywords" content="Cleaning, House Cleaning, Eco-Friendly, eco, sharon, home cleaning, home, cleaning service, middle TN, TN, Murfreesboro, Nashville">
     <meta name="author" content="Brooke Wittenberg">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
